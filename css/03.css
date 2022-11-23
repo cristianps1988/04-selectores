@@ -1,0 +1,16 @@
+.texto{
+    background-color: red;
+}
+
+.azul{
+    color: blue;
+}
+
+.mayusculas{
+    text-transform: uppercase;
+}
+
+/* Seleccionar elemento con 2 clases */
+.texto.mayusculas{
+    font-size: 8rem;
+}
