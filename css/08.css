@@ -1,0 +1,5 @@
+/* Primer nivel de hijos */
+.admin > div{
+    border: 3px solid red;
+
+}

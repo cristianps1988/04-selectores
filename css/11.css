@@ -1,0 +1,9 @@
+/* pseudoselector primer hijo */
+ul li:first-child{
+    border: 2px solid red;
+}
+
+/* pseudoselector primero de ese tipo */
+ul li:first-of-type{
+    border: 2px solid red;
+}

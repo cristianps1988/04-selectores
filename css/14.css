@@ -1,0 +1,10 @@
+/* todos los de un tipo, excepto X */
+p:not(.texto){
+    color: red;
+} 
+
+/* todos los de un tipo excepto x y */
+
+p:not(.texto):not(.oferta){
+    color: red;
+}

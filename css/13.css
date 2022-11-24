@@ -1,0 +1,23 @@
+ul li:nth-child(2){
+    border: 2px solid green;
+}
+
+/* seleccionar cada 2 elementos */
+ul li:nth-child(2n + 1){
+    border: 2px solid green;
+} 
+
+/* seleccionar cada x elementos */
+ul li:nth-child(4n + 4){
+    border: 2px solid green;
+} 
+
+/* seleccionar impares */
+ul li:nth-child(odd){
+    border: 2px solid green;
+}
+
+/* seleccionar pares */
+ul li:nth-child(even){
+    border: 2px solid green;
+}

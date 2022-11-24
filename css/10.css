@@ -1,0 +1,14 @@
+/* Selector de atributo */
+a[href="http://www.google.com"]{
+    color: red;
+} */
+
+/* ^ selector que comience con... */
+a[href^="http:"]{
+    color: red;
+} 
+
+/* $ selector que finalice con... */
+a[href$=".com"]{
+    color: red;
+}
